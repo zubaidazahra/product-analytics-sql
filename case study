@@ -1,0 +1,30 @@
+01  Product Analytics | From Downloads to Durable Engagement
+
+SQL case study  •  Product Management track  •  Fictional global EdTech programming app
+
+Business problem
+
+An app can attract large numbers of downloads while failing to convert new users into habitual learners or paying customers. The product team needs to understand where the user journey breaks and which acquisition sources deliver value beyond signup volume.
+
+Analysis approach
+
+Created a relational dataset of users, behavioural events, subscriptions, support tickets and campaigns. Cleaned duplicate records, inconsistent event labels and missing values, then used SQLite SQL with joins, CTEs, conditional aggregation, date arithmetic and window functions to answer eight product questions. Analysed acquisition mix, seven-day activation, sequential learning funnel, channel-level subscription value per user, cohort retention, subscription cancellation, support resolution and campaign cost per signup.
+
+Illustrative findings
+
+The largest signup channel in the synthetic sample was Organic Search (905 users). Seven-day activation was 4.1%. Of users with an app open, 47.6% also started a lesson; 53.5% of this sequential group completed a lesson. Average month-one cohort retention across observed cohorts was 39.6%. These are descriptive signals; they do not establish why users behave this way.
+
+Recommendations
+
+Investigate the first-session experience and test a guided first lesson to improve activation.
+
+Compare acquisition channels on downstream subscription value and retention, not signups alone.
+
+Interview users who view the paywall but do not subscribe, and test value communication/pricing.
+
+Prioritise support categories with long resolution times and monitor their relationship with repeat usage.
+
+Tools & skills demonstrated
+
+SQL: SELECT/JOIN, GROUP BY, CASE WHEN, CTEs, subqueries, date functions, window functions, NULL handling, funnel and cohort analysis. Business: metric definition, segmentation, product diagnosis, evidence-based prioritisation.
+
